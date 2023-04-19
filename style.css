@@ -1,0 +1,320 @@
+*{
+  text-decoration: none;
+  margin: 0;
+  color: unset;
+
+}
+
+
+header{
+  display: block;
+  background-color: #023F86;
+  border-bottom: 2px solid #f7A600;
+  height: 80px;
+}
+
+header img{
+  margin-top: 10px;
+}
+.escudo{
+width: 230px;
+height: 62px;
+padding-left: 120px;
+}
+
+
+main{
+  background-color: rgb(226, 229, 236);
+  padding-top: 30px;
+  padding: 50px 100px 50px 100px;
+  height: auto;
+}
+
+.primerosdos{
+  display: flex;
+}
+.amarillo-uno{
+  padding: 45px 30px 60px 30px;
+  text-align: center;
+  width: 340px;
+  height: 170px;
+  background-color: #f3a800;
+  color: #003366;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 60px;
+}
+.amarillo-uno h1{
+  margin-bottom: 0px;
+  font-family: 'Bebas Neue', cursive;;
+  letter-spacing: 1px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.amarillo-uno p{
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 23px;
+  margin-bottom: 23px;
+}
+.button-blue{
+  color: #FFFFFF;
+  font-family: 'Bebas Neue', cursive;;
+  background-color: #023f86;
+  font-size: 22px;
+  border-radius: 30px;
+  transition: 0.3s;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #333;
+}
+.button-blue:hover{
+  background-color: #03C;
+}
+.grey{
+  margin-left: 44px;
+  background-color: grey;
+  height: 224.5px;
+  width: 1000px;
+  padding: 30px 60px 20px 10px;
+  color: #FFFFFF;
+  display: block;
+}
+.contenedor{
+  display: flex;
+  margin: 20px 0 10px 40px;
+}
+.textos{
+  border-bottom: 0.5px solid #ffffff7e;
+}
+h2{
+  font-family: 'Bebas Neue', cursive;;
+  letter-spacing: 1px;
+  font-size: 30px;
+  padding-left: 20px;
+  font-weight: 500;
+}
+.grey p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: normal;
+  padding-left: 20px;
+  margin-right: 73px;
+}
+.contenedor button{
+  margin-left: 200px;
+  font-family: 'Bebas Neue', cursive;;
+  font-size: 22px;
+  text-align: center;
+  padding: 13px 35px 13px 35px;
+  background-color: #f7a800;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  width: 164px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #333;
+}
+.contenedor button:hover{
+background-color: #f3c466;
+}
+.textosdos{
+  margin-right: 30px;
+}
+
+
+.thirdgrey{
+  background-color: gray;
+  padding: 10px 0 5px 0;
+  color: #FFFFFF;
+}
+.penultimo h3:nth-child(1){
+  background-color: #023F86;
+  padding-left: 30px;
+  text-align: left;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-family: 'Bebas Neue', cursive;;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  padding-left: 220px;
+}
+h3{
+  background-color: #023F86;
+  padding-left: 30px;
+  text-align: left;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-family: 'Bebas Neue', cursive;;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.escudos{
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.escudostexto{
+  margin: 0px;
+  height: 225px;
+  width: 209px;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+.escudonotexto{
+  height: 225px;
+  width: 209px;
+  margin-top: 20px;
+}
+.escudonotexto img{
+  width: 180px;
+  height: 200px;
+  padding-left: 17px;
+}
+.escudostexto img{
+  display: block;
+  margin-left: 35px;
+  margin-bottom: 5px;
+}
+
+
+.penultimo{
+  background-color: grey;
+  margin-top: 30px;
+  padding: 10px 0 5px 0;
+}
+.penultimo h3{
+  background-color: #023F86;
+  padding-left: 30px;
+  text-align: left;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-family: 'Bebas Neue', cursive;;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.penultimo button{
+  margin-left: 20px;
+  font-family: 'Bebas Neue', cursive;;
+  font-size: 18px;
+  text-align: center;
+  background-color: #f7a800;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid #333;
+  width: 164px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+}
+.penultimo button:hover{
+background-color: #f3c466;
+}
+.dosinfo{
+  display:flex;
+  margin-bottom: 10px;
+}
+h5{
+  margin-left: 10px;
+  margin-right: 400px;
+  color: #FFFFFF;
+  font-family: 'Bebas Neue', cursive;;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 18px;
+
+}
+
+
+.ultimo{
+  padding: 10px 0 5px 0;
+  margin-top: 30px;
+  color: #FFFFFF;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+.ultimo p{
+  margin-top: 3px;
+  margin-bottom: 16px;
+  font-family: 'Bebas Neue', cursive;;
+}
+.ultimo a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+
+footer{
+  background-color: #f3a800;
+}
+
+.titulos{
+  display: flex;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: tahoma;
+  padding: 20px 70px 0 80px ;
+}
+.contacto{
+  padding: 0 50px 0 20px;
+}
+h4{
+  font-family: 'Bebas Neue', cursive;;
+  font-size: 25px;
+  margin-bottom: 10px;
+   font-weight: 500;
+   letter-spacing: 1px;
+}
+.Centro{
+padding-bottom: 10px;
+}
+.socios{
+border-left: 0.5px solid #e6e6e6;
+padding: 0 50px 0 20px;
+height: 120px;
+}
+.abonados{
+border-left: 0.5px solid #e6e6e6;
+padding-left: 20px;
+height: 120px;
+}
+footer img{
+  width: 80px;
+}
+.final{
+  margin: 20px 0 0 0;
+  padding: 30px 0 0 0;
+  text-align: center;
+  color: #FFFFFF ;
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+}
+.version{
+  padding-left: 100px;
+  padding-bottom: 16px;
+  color: grey;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 23px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  padding: 2px 0;
+}
